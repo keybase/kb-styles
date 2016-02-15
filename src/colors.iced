@@ -29,8 +29,8 @@ c = colors =
   light_grey2:              new Color 0xf6f6f6
   background_light_grey2:   new Color 0xf6f6f6
   background_white:         new Color 0xffffff
-  white:                    new Color 0xfff
-  black:                    new Color 0x000
+  white:                    new Color 0xffffff
+  black:                    new Color 0x000000
 
 pairs =
   neutral_announcement:

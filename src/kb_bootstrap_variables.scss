@@ -15,11 +15,11 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-primary:         $kb_blue; // darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         $kb_green; //#5cb85c !default;
+$brand-info:            $kb_blue; //#5bc0de !default;
+$brand-warning:         $kb_orange;
+$brand-danger:          $kb_red; //#d9534f !default;
 
 
 //== Scaffolding
@@ -396,8 +396,8 @@ $navbar-default-toggle-border-color:       #ddd !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-$navbar-inverse-bg:                         #222 !default;
-$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-bg:                         $kb_dark_blue3 !default;
+$navbar-inverse-border:                     darken($navbar-inverse-bg, 0%) !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
