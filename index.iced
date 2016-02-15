@@ -1,4 +1,3 @@
+colors     = require './lib/colors.js'
 
-module.exports =
-  colors:
-    primary: '#f02'
+module.exports = colors

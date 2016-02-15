@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/keybase/kb-styles#readme",
   "dependencies": {
-    "browserify": "^13.0.0"
+    "browserify": "^13.0.0",
+    "node-sass": "^3.4.2"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
     "gulp": "^3.9.1",
     "gulp-bower": "0.0.13",
-    "gulp-sass": "^2.2.0",
     "iced-coffee-script": "^108.0.9",
     "node-sass": "^3.4.2"
   }
