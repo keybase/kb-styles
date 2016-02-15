@@ -11,7 +11,7 @@ all: build
 
 $(BUILD_STAMP): \
 	index.js
-	./node_modules/.bin/gulp
+	./node_modules/.bin/iced ./src/build.iced
 
 build: $(BUILD_STAMP)
 
