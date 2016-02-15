@@ -5,7 +5,7 @@ sass    = require 'node-sass'
 # TODO: Talk to nojima about how he wants these things named
 #
 
-colors =
+c = colors =
   blue:                     new Color 0x33a0ff
   blue2:                    new Color 0x66b8ff
   blue3:                    new Color 0xa8d7ff
