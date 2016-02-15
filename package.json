@@ -1,0 +1,19 @@
+{
+  "name": "kb-styles",
+  "version": "1.0.0",
+  "description": "colors and styles of keybase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keybase/kb-styles.git"
+  },
+  "author": "Chris Coyne",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/keybase/kb-styles/issues"
+  },
+  "homepage": "https://github.com/keybase/kb-styles#readme"
+}
