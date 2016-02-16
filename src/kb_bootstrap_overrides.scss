@@ -1,0 +1,12 @@
+/* remove focus glow around buttons, which doesn't match our wide radius */
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+  outline: none;
+}
+
+.btn:disabled {
+  opacity: 0.2
+}
+.btn {
+  border: 0px solid #fff
+}

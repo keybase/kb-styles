@@ -19,12 +19,14 @@ c = colors =
   green2:                   new Color 0x36b37c
   red:                      new Color 0xff4d61
   yellow_green:             new Color 0x89a82c
-  yellow_fg:                new Color 71, 31, 17, 0.6
+  brown60:                  new Color 71, 31, 17, 0.6
   black75:                  new Color 0, 0, 0, 0.75
   black60:                  new Color 0, 0, 0, 0.60
   black40:                  new Color 0, 0, 0, 0.40
   black20:                  new Color 0, 0, 0, 0.20
   black10:                  new Color 0, 0, 0, 0.10
+  white75:                  new Color 255, 255, 255, 0.75
+  white40:                  new Color 255, 255, 255, 0.40
   light_grey:               new Color 0xebebeb
   light_grey2:              new Color 0xf6f6f6
   background_light_grey2:   new Color 0xf6f6f6
@@ -40,7 +42,7 @@ pairs =
     fg: c.white
     bg: c.green
   to_be_noticed:
-    fg: c.yellow_fg
+    fg: c.brown60
     bg: c.yellow
   high_risk_alert:
     fg: c.white
