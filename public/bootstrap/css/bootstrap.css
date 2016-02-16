@@ -1074,7 +1074,7 @@ a {
   color: #33a0ff;
   text-decoration: none; }
   a:hover, a:focus {
-    color: white;
+    color: #005fb3;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -3064,7 +3064,7 @@ fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: white;
+    color: #005fb3;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
@@ -4102,7 +4102,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 2;
-    color: white;
+    color: #005fb3;
     background-color: #eeeeee;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
