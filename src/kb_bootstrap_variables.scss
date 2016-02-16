@@ -34,7 +34,7 @@ $text-color:            $gray-dark !default;
 //** Global textual link color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      lighten($link-color, 50%) !default;
 //** Link hover decoration.
 $link-hover-decoration: underline !default;
 
@@ -400,7 +400,7 @@ $navbar-inverse-bg:                         $kb_dark_blue3 !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 0%) !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
+$navbar-inverse-link-color:                 $kb_white40;//lighten($gray-light, 15%) !default;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
