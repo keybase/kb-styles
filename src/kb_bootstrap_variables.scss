@@ -501,21 +501,21 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #3c763d !default;
-$state-success-bg:               #dff0d8 !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-text:             $kb_white !default;
+$state-success-bg:               $kb_green !default;
+$state-success-border:           $kb_green !default;//darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text:                #31708f !default;
-$state-info-bg:                  #d9edf7 !default;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-text:                $kb_brown60 !default;
+$state-info-bg:                  $kb_yellow !default;
+$state-info-border:              $kb_yellow !default; //darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text:             #8a6d3b !default;
-$state-warning-bg:               #fcf8e3 !default;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+$state-warning-text:             $kb_brown60 !default;
+$state-warning-bg:               $kb_yellow !default;
+$state-warning-border:           $kb_yellow !default;//darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
-$state-danger-text:              #a94442 !default;
-$state-danger-bg:                #f2dede !default;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-text:              $kb_white !default;
+$state-danger-bg:                $kb_red !default;
+$state-danger-border:            $kb_red;//darken(adjust-hue($state-danger-bg, -10), 5%) !default;
 
 
 //== Tooltips
@@ -840,9 +840,9 @@ $code-bg:                     $kb_blue4;// !default;
 $kbd-color:                   #fff !default;
 $kbd-bg:                      #333 !default;
 
-$pre-bg:                      #f5f5f5 !default;
-$pre-color:                   $gray-dark !default;
-$pre-border-color:            #ccc !default;
+$pre-bg:                      $kb_dark_blue;//#f5f5f5 !default;
+$pre-color:                   $kb_blue4;//$gray-dark !default;
+$pre-border-color:            $kb_dark_blue;//#ccc !default;
 $pre-scrollable-max-height:   340px !default;
 
 
