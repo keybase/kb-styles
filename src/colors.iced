@@ -31,12 +31,12 @@ for fg in ['white','black','brown']
   [r,g,b] = [c[fg].getR(), c[fg].getG(), c[fg].getB()]
   for alpha in [10,20,40,60,75]
     a = alpha / 100
-    c["#{fg}#{alpha}"] = new Color r, g, b, a     # this generates black70, etc.
+    c["#{fg}#{alpha}"] = new Color r, g, b, a             # this generates black70, etc.
     for bg in ['white','black','yellow','dark_blue']
       r2 = c[bg].getR() * (1 - a) + r * a
       g2 = c[bg].getG() * (1 - a) + g * a
       b2 = c[bg].getB() * (1 - a) + b * a
-      c["#{fg}#{alpha}_on_#{bg}"] = new Color r2,g2,b2
+      c["#{fg}#{alpha}_on_#{bg}"] = new Color r2,g2,b2    # and this generates black70_on_yellow, etc.
 
 
 # let's build "brown60"
