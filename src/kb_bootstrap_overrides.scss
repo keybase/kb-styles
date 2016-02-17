@@ -7,10 +7,22 @@
 .btn:disabled {
   opacity: 0.2;
 }
-.btn {
+small {
+  color:$kb_black40;
+}
+.well {
+  color:$kb_white;
+  small {
+    color:$kb_white40_on_dark_blue;
+  }
+}
+/*
+.btn-danger {
   border: 0px solid #fff;
   &:not(:disabled) {
     &:hover {
+      background-color: lighten($state-danger-bg,10%);
     }
   }
 }
+*/
