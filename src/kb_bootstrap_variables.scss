@@ -505,11 +505,11 @@ $state-success-text:             $kb_white !default;
 $state-success-bg:               $kb_green !default;
 $state-success-border:           $kb_green !default;//darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text:                $kb_brown60 !default;
+$state-info-text:                $kb_brown60_on_yellow !default;
 $state-info-bg:                  $kb_yellow !default;
 $state-info-border:              $kb_yellow !default; //darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text:             $kb_brown60 !default;
+$state-warning-text:             $kb_brown60_on_yellow !default;
 $state-warning-bg:               $kb_yellow !default;
 $state-warning-border:           $kb_yellow !default;//darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
@@ -612,9 +612,9 @@ $modal-backdrop-bg:           #000 !default;
 //** Modal backdrop opacity
 $modal-backdrop-opacity:      .5 !default;
 //** Modal header border color
-$modal-header-border-color:   #e5e5e5 !default;
+$modal-header-border-color:   $kb_white;// !default;
 //** Modal footer border color
-$modal-footer-border-color:   $modal-header-border-color !default;
+$modal-footer-border-color:   $kb_white;//$modal-header-border-color !default;
 
 $modal-lg:                    900px !default;
 $modal-md:                    600px !default;
