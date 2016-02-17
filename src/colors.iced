@@ -27,7 +27,7 @@ c = colors =
   black:                    new Color 0x000000
   brown:                    new Color 71,31,17
 
-for fg in ['white','black','brown']
+for fg in ['white','black','brown','blue']
   [r,g,b] = [c[fg].getR(), c[fg].getG(), c[fg].getB()]
   for alpha in [10,20,40,60,75]
     a = alpha / 100

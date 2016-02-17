@@ -374,8 +374,8 @@ $navbar-default-bg:                #f8f8f8 !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                #777 !default;
-$navbar-default-link-hover-color:          #333 !default;
+$navbar-default-link-color:                $kb_white40;// !default;
+$navbar-default-link-hover-color:          $kb_white60;// !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
@@ -400,8 +400,8 @@ $navbar-inverse-bg:                         $kb_dark_blue3 !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 0%) !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 $kb_white40;//lighten($gray-light, 15%) !default;
-$navbar-inverse-link-hover-color:           #fff !default;
+$navbar-inverse-link-color:                 $kb_blue;//lighten($gray-light, 15%) !default;
+$navbar-inverse-link-hover-color:           $kb_blue2; //!default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
 $navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
