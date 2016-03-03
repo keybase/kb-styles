@@ -1059,7 +1059,7 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: rgba(0, 0, 0, 0.75);
+  color: #404040;
   background-color: #fff; }
 
 input,
@@ -2706,7 +2706,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: rgba(64, 64, 64, 0.75); }
+  color: gray; }
 
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -4338,7 +4338,7 @@ a.badge:hover, a.badge:focus {
     margin-right: auto; }
   .thumbnail .caption {
     padding: 9px;
-    color: rgba(0, 0, 0, 0.75); }
+    color: #404040; }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
