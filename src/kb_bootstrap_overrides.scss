@@ -1,7 +1,29 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.3px;
+}
+
 /* remove focus glow around buttons, which doesn't match our wide radius */
 .btn:focus,.btn:active:focus,.btn.active:focus,
 .btn.focus,.btn:active.focus,.btn.active.focus {
   outline: none;
+}
+.btn {
+  border:0
+}
+
+.container {
+  background-color: $kb_white;
+}
+.navbar-default .container {
+  background-color: $kb_light_grey;
+}
+.btn {
+  padding-left:25px;
+  padding-right:25px;
+  letter-spacing: 0.3px;
 }
 
 .btn:disabled {

@@ -27,7 +27,7 @@ $brand-danger:          $kb_red; //#d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               $kb_light_grey !default;
 //** Global text color on `<body>`.
 $text-color:            $kb_black75_on_white; //gray-dark !default;
 
@@ -49,13 +49,13 @@ $font-family-serif:       "Lato", Georgia, "Times New Roman", Times, serif !defa
 $font-family-monospace:   "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
+$font-size-base:          16px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h1:            32px;//floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            24px;//floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            18px;//ceil(($font-size-base * 1.7)) !default; // ~24px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
@@ -147,7 +147,7 @@ $table-border-color:            #ddd !default;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+$btn-font-weight:                600;//normal !default;
 
 $btn-default-color:              $kb_black75 !default;
 $btn-default-bg:                 $kb_light_grey !default;
@@ -370,12 +370,12 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-bg:                $kb_light_grey !default;
+$navbar-default-border:            0; //darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                $kb_white40;// !default;
-$navbar-default-link-hover-color:          $kb_white60;// !default;
+$navbar-default-link-color:                $kb_black60;//$kb_white40;// !default;
+$navbar-default-link-hover-color:          $kb_black75;//$kb_white60;// !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
@@ -505,9 +505,9 @@ $state-success-text:             $kb_white !default;
 $state-success-bg:               $kb_green !default;
 $state-success-border:           $kb_green !default;//darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text:                $kb_brown60_on_yellow !default;
-$state-info-bg:                  $kb_yellow !default;
-$state-info-border:              $kb_yellow !default; //darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-text:                $kb_white !default;
+$state-info-bg:                  $kb_blue !default;
+$state-info-border:              $kb_blue !default; //darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
 $state-warning-text:             $kb_brown60_on_yellow !default;
 $state-warning-bg:               $kb_yellow !default;
