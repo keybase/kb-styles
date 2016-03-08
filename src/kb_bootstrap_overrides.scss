@@ -5,6 +5,12 @@ body {
   letter-spacing: 0.3px;
 }
 
+pre {
+  font-size:14px;
+  line-height:21px;
+}
+
+
 /* remove focus glow around buttons, which doesn't match our wide radius */
 .btn:focus,.btn:active:focus,.btn.active:focus,
 .btn.focus,.btn:active.focus,.btn.active.focus {
@@ -17,6 +23,14 @@ body {
 .container {
   background-color: $kb_white;
 }
+
+@media screen and (min-width: $screen-sm) {
+  .container {
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+
 .navbar-default .container {
   background-color: $kb_light_grey;
 }

@@ -2832,28 +2832,28 @@ fieldset[disabled] a.btn {
 
 .btn-default {
   color: rgba(0, 0, 0, 0.75);
-  background-color: #f6f6f6;
-  border-color: #f6f6f6; }
+  background-color: #ebebeb;
+  border-color: #ebebeb; }
   .btn-default:focus, .btn-default.focus {
     color: rgba(0, 0, 0, 0.75);
-    background-color: #dddddd;
-    border-color: #b6b6b6; }
+    background-color: #d2d2d2;
+    border-color: #ababab; }
   .btn-default:hover {
     color: rgba(0, 0, 0, 0.75);
-    background-color: #dddddd;
-    border-color: #d7d7d7; }
+    background-color: #d2d2d2;
+    border-color: #cccccc; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
     color: rgba(0, 0, 0, 0.75);
-    background-color: #dddddd;
-    border-color: #d7d7d7; }
+    background-color: #d2d2d2;
+    border-color: #cccccc; }
     .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus,
     .open > .btn-default.dropdown-toggle:hover,
     .open > .btn-default.dropdown-toggle:focus,
     .open > .btn-default.dropdown-toggle.focus {
       color: rgba(0, 0, 0, 0.75);
-      background-color: #cbcbcb;
-      border-color: #b6b6b6; }
+      background-color: silver;
+      border-color: #ababab; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
     background-image: none; }
@@ -2861,10 +2861,10 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-default:hover,
   fieldset[disabled] .btn-default:focus,
   fieldset[disabled] .btn-default.focus {
-    background-color: #f6f6f6;
-    border-color: #f6f6f6; }
+    background-color: #ebebeb;
+    border-color: #ebebeb; }
   .btn-default .badge {
-    color: #f6f6f6;
+    color: #ebebeb;
     background-color: rgba(0, 0, 0, 0.75); }
 
 .btn-primary {
@@ -5144,10 +5144,10 @@ button.close {
 
 .modal-body {
   position: relative;
-  padding: 15px; }
+  padding: 30px; }
 
 .modal-footer {
-  padding: 15px;
+  padding: 30px;
   text-align: right;
   border-top: 1px solid white; }
   .modal-footer:before, .modal-footer:after {
@@ -5824,6 +5824,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.3px; }
 
+pre {
+  font-size: 14px;
+  line-height: 21px; }
+
 /* remove focus glow around buttons, which doesn't match our wide radius */
 .btn:focus, .btn:active:focus, .btn.active:focus,
 .btn.focus, .btn:active.focus, .btn.active.focus {
@@ -5834,6 +5838,11 @@ body {
 
 .container {
   background-color: white; }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px; } }
 
 .navbar-default .container {
   background-color: #f6f6f6; }

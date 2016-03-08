@@ -150,8 +150,8 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                600;//normal !default;
 
 $btn-default-color:              $kb_black75 !default;
-$btn-default-bg:                 $kb_light_grey !default;
-$btn-default-border:             $kb_light_grey !default;
+$btn-default-bg:                 $kb_light_grey2 !default;
+$btn-default-border:             $kb_light_grey2 !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
@@ -593,7 +593,7 @@ $label-link-hover-color:      #fff !default;
 //##
 
 //** Padding applied to the modal body
-$modal-inner-padding:         15px !default;
+$modal-inner-padding:         30px !default;
 
 //** Padding applied to the modal title
 $modal-title-padding:         15px !default;
