@@ -1,6 +1,6 @@
 {
   "name": "kb-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "colors and styles of keybase",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/keybase/kb-styles#readme",
   "dependencies": {
-    "browserify": "^13.0.0",
     "node-sass": "^3.4.2"
   },
   "devDependencies": {
