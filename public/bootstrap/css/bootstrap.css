@@ -5836,9 +5836,6 @@ pre {
 .btn {
   border: 0; }
 
-.container {
-  background-color: white; }
-
 @media screen and (min-width: 768px) {
   .container {
     padding-left: 30px;
