@@ -1,8 +1,8 @@
 {
   "name": "kb-styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "colors and styles of keybase",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +16,7 @@
     "url": "https://github.com/keybase/kb-styles/issues"
   },
   "homepage": "https://github.com/keybase/kb-styles#readme",
-  "dependencies": {
-    "node-sass": "^3.4.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browserify": "^13.0.0",
     "gulp": "^3.9.1",
