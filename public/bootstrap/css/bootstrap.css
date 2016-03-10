@@ -5828,6 +5828,9 @@ pre {
   font-size: 14px;
   line-height: 21px; }
 
+p {
+  margin: 0 0 1.5em; }
+
 /* remove focus glow around buttons, which doesn't match our wide radius */
 .btn:focus, .btn:active:focus, .btn.active:focus,
 .btn.focus, .btn:active.focus, .btn.active.focus {
