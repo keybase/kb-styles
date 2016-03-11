@@ -5831,6 +5831,10 @@ pre {
 p {
   margin: 0 0 1.5em; }
 
+p.lead {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4); }
+
 .label {
   text-transform: uppercase;
   border-radius: 1px;
