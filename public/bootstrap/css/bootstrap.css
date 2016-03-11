@@ -5828,6 +5828,15 @@ pre {
   font-size: 14px;
   line-height: 21px; }
 
+.alert a {
+  color: white;
+  text-decoration: underline; }
+  .alert a:hover {
+    text-decoration: none; }
+
+.alert.alert-warning a {
+  color: #91752e; }
+
 p {
   margin: 0 0 1.5em; }
 
@@ -5854,7 +5863,7 @@ p.lead {
     padding-right: 30px; } }
 
 .navbar-default .container {
-  background-color: #f6f6f6; }
+  background-color: #ebebeb; }
 
 .btn {
   padding-left: 25px;
