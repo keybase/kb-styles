@@ -65,8 +65,10 @@ p.lead {
 .btn:disabled {
   opacity: 0.2;
 }
-small {
+
+small, .small {
   color:$kb_black40;
+  font-size:87.5% // bootstrap generated 87%, but we really want 16px->14px when small
 }
 .well {
   color:$kb_white;
