@@ -22,6 +22,7 @@
     "gulp": "^3.9.1",
     "gulp-bower": "0.0.13",
     "iced-coffee-script": "^108.0.9",
+    "iced-error": "0.0.9",
     "node-sass": "^3.4.2"
   }
 }
