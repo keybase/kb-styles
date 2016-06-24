@@ -115,7 +115,7 @@ build_toffee_passbacks = (_, cb) ->
   #}
   """
   # write css file
-  await fs.writeFile "./public/toffee/kbstyles.toffee", res, {encoding:'utf-8'}, esc defer()
+  await fs.writeFile "./public/toffee/kb-styles.toffee", res, {encoding:'utf-8'}, esc defer()
 
   cb null
 
