@@ -5873,6 +5873,20 @@ p.lead {
 .btn:disabled {
   opacity: 0.2; }
 
+/* and our green outline button */
+.btn-success-outline {
+  color: #36b37c;
+  background-color: #fff;
+  border: 2px solid #3dcc8e;
+  padding: 4px 23px; }
+  .btn-success-outline.btn-lg, .btn-group-lg > .btn-success-outline.btn {
+    padding: 8px 23px; }
+  .btn-success-outline.btn-sm, .btn-group-sm > .btn-success-outline.btn {
+    padding: 3px 23px; }
+  .btn-success-outline.btn-xs, .btn-group-xs > .btn-success-outline.btn {
+    padding: 0px 24px;
+    border-width: 1px; }
+
 small, .small {
   color: rgba(0, 0, 0, 0.4);
   font-size: 87.5%; }
