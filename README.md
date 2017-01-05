@@ -3,7 +3,7 @@
 This project generates a number of outputs for having access to Keybase styles:
 
 Setup:
- - `npm rebuild` after checking out for the first time
+ - `npm install -d` after checking out for the first time
 
 Inputs:
   - `src/colors.iced` to change color variables
