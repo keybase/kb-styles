@@ -27,7 +27,7 @@ $brand-danger:          $kb_red; //#d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $kb_white !default;
+$body-bg:               $kb_light_grey !default;
 //** Global text color on `<body>`.
 $text-color:            $kb_black75_on_white; //gray-dark !default;
 
@@ -362,8 +362,8 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
-$navbar-margin-bottom:             $line-height-computed !default;
+$navbar-height:                    80px !default;
+$navbar-margin-bottom:             24px !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
