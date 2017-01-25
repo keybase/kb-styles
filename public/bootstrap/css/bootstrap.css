@@ -5827,14 +5827,15 @@ pre {
   font-size: 13px;
   line-height: 20px; }
 
-.alert a {
-  color: white;
-  text-decoration: underline; }
-  .alert a:hover {
-    text-decoration: none; }
-
-.alert.alert-warning a {
-  color: #91752f; }
+.alert {
+  font-weight: 600; }
+  .alert a {
+    color: white;
+    text-decoration: underline; }
+    .alert a:hover {
+      text-decoration: none; }
+  .alert.alert-warning a {
+    color: #91752f; }
 
 h1, h2 {
   font-weight: 700; }
@@ -5844,10 +5845,6 @@ p {
 
 ul {
   margin-bottom: 1.5em; }
-
-p.lead {
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.4); }
 
 b, strong {
   font-weight: 600; }

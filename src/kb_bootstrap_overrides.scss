@@ -10,6 +10,7 @@ pre {
 }
 
 .alert {
+  font-weight: 600;
   a {
     color: $kb_white;
     text-decoration: underline;
@@ -33,11 +34,6 @@ p {
 }
 ul {
   margin-bottom:1.5em
-}
-
-p.lead {
-  font-weight: normal;
-  color:$kb_black40;
 }
 
 b, strong {
