@@ -54,8 +54,8 @@ label {
 
 .label {
   text-transform: uppercase;
-  border-radius:1px;
-  font-size:0.7em;
+  border-radius:2px;
+  padding:.1em .6em;
 }
 
 /* remove focus glow around buttons, which doesn't match our wide radius */
@@ -98,9 +98,21 @@ label {
 }
 
 
+h4 small,
+h4 .small,
+.h4 small,
+.h4 .small,
+h5 small,
+h5 .small,
+.h5 small,
+.h5 .small,
+h6 small,
+h6 .small,
+.h6 small,
+.h6 .small, 
 small, .small {
   color:$kb_black40;
-  font-size:87.5% // bootstrap generated 87%, but we really want 16px->14px when small
+  font-size:11px 
 }
 .well {
   color:$kb_white;

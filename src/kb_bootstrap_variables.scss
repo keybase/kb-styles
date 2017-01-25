@@ -107,9 +107,9 @@ $padding-xs-horizontal:     4px !default;
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        4px !default;
+$border-radius-base:        0px !default;
 $border-radius-large:       8px !default;
-$border-radius-small:       2px !default;
+$border-radius-small:       4px !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
@@ -362,7 +362,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    80px !default;
+$navbar-height:                    64px !default;
 $navbar-margin-bottom:             24px !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
