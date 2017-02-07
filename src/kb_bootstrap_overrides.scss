@@ -2,15 +2,15 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.3px;
 }
 
 pre {
-  font-size:14px;
-  line-height:21px;
+  font-size:13px;
+  line-height:20px;
 }
 
 .alert {
+  font-weight: 600;
   a {
     color: $kb_white;
     text-decoration: underline;
@@ -25,6 +25,10 @@ pre {
   }
 }
 
+h1, h2 {
+  font-weight: 700;
+}
+
 p {
   margin: 0 0 1.5em;
 }
@@ -32,15 +36,22 @@ ul {
   margin-bottom:1.5em
 }
 
-p.lead {
-  font-weight: normal;
-  color:$kb_black40;
+b, strong {
+  font-weight: 600;
+}
+
+code {
+  font-size: 100%;
+}
+
+label {
+  font-weight: 600;
 }
 
 .label {
   text-transform: uppercase;
-  border-radius:1px;
-  font-size:0.7em;
+  border-radius:2px;
+  padding:.1em .6em;
 }
 
 /* remove focus glow around buttons, which doesn't match our wide radius */
@@ -60,9 +71,8 @@ p.lead {
 }
 
 .btn {
-  padding-left:25px;
-  padding-right:25px;
-  letter-spacing: 0.3px;
+  font-size: $font-size-large;
+  padding: 7px 24px;
 }
 
 .btn:disabled {
@@ -84,9 +94,21 @@ p.lead {
 }
 
 
+h4 small,
+h4 .small,
+.h4 small,
+.h4 .small,
+h5 small,
+h5 .small,
+.h5 small,
+.h5 .small,
+h6 small,
+h6 .small,
+.h6 small,
+.h6 .small, 
 small, .small {
   color:$kb_black40;
-  font-size:87.5% // bootstrap generated 87%, but we really want 16px->14px when small
+  font-size:11px 
 }
 .well {
   color:$kb_white;

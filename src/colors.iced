@@ -24,7 +24,7 @@ c = colors =
   yellow_green:             new Color 0xa8cf36
   yellow_green2:            new Color 0x94b52f
   yellow_green3:            new Color 0xd2e697
-  light_grey:               new Color 0xf0f0f0
+  light_grey:               new Color 0xf6f6f6
   light_grey2:              new Color 0xe6e6e6
   grey:                     new Color 0xcccccc
   beige:                    new Color 0xfaf2ed
