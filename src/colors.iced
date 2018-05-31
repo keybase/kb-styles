@@ -6,20 +6,22 @@ sass    = require 'node-sass'
 #
 
 c = colors =
-  blue:                     new Color 0x33a0ff
-  blue2:                    new Color 0x66b8ff
-  blue3:                    new Color 0xa8d7ff
-  blue4:                    new Color 0xebf5fc
+  blue:                     new Color 0x4c8eff
+  blue2:                    new Color 0x73a6ff
+  blue3:                    new Color 0xa8ccff
+  blue4:                    new Color 0xebf2fc
+  blue5:                    new Color 0xf7f9fc
   orange:                   new Color 0xff6f21
   yellow:                   new Color 0xfff75a
-  dark_blue:                new Color 0x195080
-  dark_blue2:               new Color 0x2470b3
-  dark_blue3:               new Color 0x0a3052
-  dark_blue4:               new Color 0x103c64
-  midnight_blue:            new Color 0x082640
-  green:                    new Color 0x3dcc8e
-  green2:                   new Color 0x36b37c
-  green3:                   new Color 0xe5f6ef
+  yellow2:                  new Color 0xdbd22a
+  yellow3:                  new Color 0xfffdcc
+  dark_blue:                new Color 0x2645a3
+  dark_blue2:               new Color 0x3663ea
+  dark_blue3:               new Color 0x182d6e
+  dark_blue4:               new Color 0x1036ac
+  green:                    new Color 0x3dcca6
+  green2:                   new Color 0x34ad8d
+  green3:                   new Color 0xe8faf6
   red:                      new Color 0xff4d61
   yellow_green:             new Color 0xa8cf36
   yellow_green2:            new Color 0x94b52f
@@ -28,6 +30,9 @@ c = colors =
   light_grey2:              new Color 0xe6e6e6
   grey:                     new Color 0xcccccc
   beige:                    new Color 0xfaf2ed
+  purple:                   new Color 0x704eba
+  purple2:                  new Color 0x845cdb
+  purple3:                  new Color 0x9f7bec
   background_light_grey2:   new Color 0xf6f6f6
   background_white:         new Color 0xffffff
   white:                    new Color 0xffffff
@@ -39,7 +44,7 @@ for fg in ['white','black','brown','blue']
   for alpha in [5,10,20,40,60,75]
     a = alpha / 100
     c["#{fg}#{alpha}"] = new Color r, g, b, a             # this generates black70, etc.
-    for bg in ['white','black','yellow','dark_blue', 'midnight_blue']
+    for bg in ['white','black','yellow','dark_blue']
       r2 = c[bg].getR() * (1 - a) + r * a
       g2 = c[bg].getG() * (1 - a) + g * a
       b2 = c[bg].getB() * (1 - a) + b * a
