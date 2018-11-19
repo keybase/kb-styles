@@ -1,6 +1,6 @@
 {
   "name": "kb-styles",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "colors and styles of keybase",
   "main": "lib/index.js",
   "scripts": {
@@ -18,11 +18,8 @@
   "homepage": "https://github.com/keybase/kb-styles#readme",
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^13.1.1",
-    "gulp": "^3.9.1",
-    "gulp-bower": "0.0.13",
     "iced-coffee-script": "^108.0.11",
-    "iced-error": "0.0.9",
-    "node-sass": "^4.9.0"
+    "iced-error": "0.0.13",
+    "node-sass": "^4.10.0"
   }
 }

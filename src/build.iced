@@ -1,4 +1,3 @@
-gulp       = require 'gulp'
 sass       = require 'node-sass'
 {make_esc} = require 'iced-error'
 fs         = require 'fs'
