@@ -43,22 +43,22 @@ $link-hover-decoration: underline;// !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "Open Sans", Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       "Proxima Nova", Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          13px !default;
-$font-size-large:         14px;//ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         11px;//ceil(($font-size-base * 0.875)) !default; // ~12px
+$font-size-base:          14px !default;
+$font-size-large:         15px;//ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         12px;//ceil(($font-size-base * 0.875)) !default; // ~12px
 
 $font-size-h1:            28px;//floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            24px;//floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            16px;//ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            14px;//ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-h5:            14px;//$font-size-base !default;
-$font-size-h6:            14px;//ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h3:            17px;//ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            15px;//ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            15px;//$font-size-base !default;
+$font-size-h6:            15px;//ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
