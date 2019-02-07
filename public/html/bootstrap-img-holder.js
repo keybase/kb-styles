@@ -950,7 +950,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    scene.font = {
-	        family: scene.theme.font ? scene.theme.font : 'Arial, Helvetica, Open Sans, sans-serif',
+	        family: scene.theme.font ? scene.theme.font : 'Proxima Nova, Arial, Helvetica, sans-serif',
 	        size: textSize(scene.width, scene.height, fontSize, App.defaults.scale),
 	        units: scene.theme.units ? scene.theme.units : App.defaults.units,
 	        weight: scene.theme.fontweight ? scene.theme.fontweight : 'bold'
