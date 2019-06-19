@@ -18,7 +18,7 @@ pre {
   }
   &.alert-warning {
     a {
-      color: $kb_brown60_on_yellow;
+      color: $kb_brown85_on_yellow;
     }
   }
 }
@@ -46,12 +46,15 @@ code {
 }
 
 label {
-  font-weight: 600;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .label {
   text-transform: uppercase;
-  border-radius:2px;
+  border-radius:4px;
   padding:.1em .6em;
 }
 
@@ -105,16 +108,16 @@ h6 .small,
 .h6 small,
 .h6 .small, 
 small, .small {
-  color:$kb_black40;
+  color:$kb_black50;
   font-size:13px 
 }
 .well {
   color:$kb_white;
   small {
-    color:$kb_white40_on_dark_blue;
+    color:$kb_white50_on_dark_blue;
   }
 }
-.jumbotron small { color: $kb_white40_on_dark_blue; }
+.jumbotron small { color: $kb_white50_on_dark_blue; }
 
 .modal {
   .modal-header {
@@ -128,7 +131,7 @@ small, .small {
     }
   }
   &.modal-info {
-    .modal-header  {background-color: $kb_yellow; color:$kb_brown60_on_yellow;}
+    .modal-header  {background-color: $kb_yellow; color:$kb_brown85_on_yellow;}
   }
   &.modal-danger {
     .modal-header  {background-color: $kb_red; color:$kb_white;}

@@ -29,7 +29,7 @@ $brand-danger:          $kb_red; //#d9534f !default;
 //** Background color for `<body>`.
 $body-bg:               $kb_light_grey !default;
 //** Global text color on `<body>`.
-$text-color:            $kb_black75_on_white; //gray-dark !default;
+$text-color:            $kb_black85_on_white; //gray-dark !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
@@ -149,7 +149,7 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                600;//normal !default;
 
-$btn-default-color:              $kb_black75 !default;
+$btn-default-color:              $kb_black85 !default;
 $btn-default-bg:                 $kb_light_grey2 !default;
 $btn-default-border:             $kb_light_grey2 !default;
 
@@ -374,8 +374,8 @@ $navbar-default-bg:                $kb_white !default;
 $navbar-default-border:            0; //darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                $kb_black60;//$kb_white40;// !default;
-$navbar-default-link-hover-color:          $kb_black75;//$kb_white60;// !default;
+$navbar-default-link-color:                $kb_black63;//$kb_white50;// !default;
+$navbar-default-link-hover-color:          $kb_black85;//$kb_white60;// !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
@@ -509,7 +509,7 @@ $state-info-text:                $kb_white !default;
 $state-info-bg:                  $kb_blue !default;
 $state-info-border:              $kb_blue !default; //darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text:             $kb_brown60_on_yellow !default;
+$state-warning-text:             $kb_brown85_on_yellow !default;
 $state-warning-bg:               $kb_yellow !default;
 $state-warning-border:           $kb_yellow !default;//darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
