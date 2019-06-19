@@ -49,16 +49,16 @@ $font-family-serif:       "Proxima Nova", Georgia, "Times New Roman", Times, ser
 $font-family-monospace:   "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
-$font-size-large:         15px;//ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         12px;//ceil(($font-size-base * 0.875)) !default; // ~12px
+$font-size-base:          15px !default;
+$font-size-large:         16px;//ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         13px;//ceil(($font-size-base * 0.875)) !default; // ~12px
 
-$font-size-h1:            28px;//floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h1:            32px;//floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            24px;//floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            17px;//ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            15px;//ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-h5:            15px;//$font-size-base !default;
-$font-size-h6:            15px;//ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h3:            18px;//ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            16px;//ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            16px;//$font-size-base !default;
+$font-size-h6:            16px;//ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
@@ -176,9 +176,9 @@ $btn-danger-border:              $btn-danger-bg;//darken($btn-danger-bg, 5%) !de
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         50px; //$border-radius-base !default;
-$btn-border-radius-large:        50px; //$border-radius-large !default;
-$btn-border-radius-small:        50px; //$border-radius-small !default;
+$btn-border-radius-base:         4px; //$border-radius-base !default;
+$btn-border-radius-large:        4px; //$border-radius-large !default;
+$btn-border-radius-small:        4px; //$border-radius-small !default;
 
 
 //== Forms

@@ -1,11 +1,9 @@
 body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
 pre {
-  font-size:13px;
+  font-size:14px;
   line-height:20px;
 }
 
@@ -25,8 +23,11 @@ pre {
   }
 }
 
-h1, h2 {
-  font-weight: 700;
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 800;
 }
 
 p {
@@ -84,13 +85,10 @@ label {
   color: $kb_green2;
   background-color: #fff;
   border: 2px solid $kb_green;
-  padding: 4px 23px;
-  &.btn-lg { padding: 8px 23px; }
-  &.btn-sm { padding: 3px 23px; }
-  &.btn-xs {
-    padding: 0px 24px;
-    border-width:1px;
-  }
+  padding: 6px 23px 5px;
+  &.btn-lg { padding: 6px 23px 5px; }
+  &.btn-sm { padding: 6px 23px 5px; }
+  &.btn-xs { padding: 6px 24px 5px; }
 }
 
 
@@ -108,7 +106,7 @@ h6 .small,
 .h6 .small, 
 small, .small {
   color:$kb_black40;
-  font-size:12px 
+  font-size:13px 
 }
 .well {
   color:$kb_white;
