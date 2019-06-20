@@ -19,8 +19,8 @@ c = colors =
   dark_blue2:               new Color 0x3663ea
   dark_blue3:               new Color 0x182d6e
   dark_blue4:               new Color 0x1036ac
-  green:                    new Color 0x3dcca6
-  green2:                   new Color 0x34ad8d
+  green:                    new Color 0x37bd99
+  green2:                   new Color 0x289a72
   green3:                   new Color 0xe8faf6
   red:                      new Color 0xff4d61
   yellow_green:             new Color 0xa8cf36
@@ -41,7 +41,7 @@ c = colors =
 
 for fg in ['white','black','brown','blue']
   [r,g,b] = [c[fg].getR(), c[fg].getG(), c[fg].getB()]
-  for alpha in [5,10,20,40,60,75]
+  for alpha in [5,10,20,50,63,85]
     a = alpha / 100
     c["#{fg}#{alpha}"] = new Color r, g, b, a             # this generates black70, etc.
     for bg in ['white','black','yellow','dark_blue']
@@ -58,7 +58,7 @@ pairs =
     fg: c.white
     bg: c.green
   to_be_noticed:
-    fg: c.brown60
+    fg: c.brown85
     bg: c.yellow
   high_risk_alert:
     fg: c.white

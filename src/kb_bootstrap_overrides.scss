@@ -1,11 +1,9 @@
 body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
 pre {
-  font-size:13px;
+  font-size:14px;
   line-height:20px;
 }
 
@@ -20,13 +18,24 @@ pre {
   }
   &.alert-warning {
     a {
-      color: $kb_brown60_on_yellow;
+      color: $kb_brown85_on_yellow;
     }
   }
 }
 
+<<<<<<< HEAD
 h1, h2, h3 {
   font-weight: 800;
+||||||| merged common ancestors
+h1, h2 {
+  font-weight: 700;
+=======
+h1, h2, h3 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 800;
+>>>>>>> master
 }
 
 p {
@@ -45,12 +54,15 @@ code {
 }
 
 label {
-  font-weight: 600;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .label {
   text-transform: uppercase;
-  border-radius:2px;
+  border-radius:4px;
   padding:.1em .6em;
 }
 
@@ -84,13 +96,10 @@ label {
   color: $kb_green2;
   background-color: #fff;
   border: 2px solid $kb_green;
-  padding: 4px 23px;
-  &.btn-lg { padding: 8px 23px; }
-  &.btn-sm { padding: 3px 23px; }
-  &.btn-xs {
-    padding: 0px 24px;
-    border-width:1px;
-  }
+  padding: 6px 23px 5px;
+  &.btn-lg { padding: 6px 23px 5px; }
+  &.btn-sm { padding: 6px 23px 5px; }
+  &.btn-xs { padding: 6px 24px 5px; }
 }
 
 
@@ -107,16 +116,16 @@ h6 .small,
 .h6 small,
 .h6 .small, 
 small, .small {
-  color:$kb_black40;
-  font-size:12px 
+  color:$kb_black50;
+  font-size:13px 
 }
 .well {
   color:$kb_white;
   small {
-    color:$kb_white40_on_dark_blue;
+    color:$kb_white50_on_dark_blue;
   }
 }
-.jumbotron small { color: $kb_white40_on_dark_blue; }
+.jumbotron small { color: $kb_white50_on_dark_blue; }
 
 .modal {
   .modal-header {
@@ -130,7 +139,7 @@ small, .small {
     }
   }
   &.modal-info {
-    .modal-header  {background-color: $kb_yellow; color:$kb_brown60_on_yellow;}
+    .modal-header  {background-color: $kb_yellow; color:$kb_brown85_on_yellow;}
   }
   &.modal-danger {
     .modal-header  {background-color: $kb_red; color:$kb_white;}
