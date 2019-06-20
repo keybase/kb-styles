@@ -5818,6 +5818,11 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 pre {
   font-size: 14px;
   line-height: 20px; }
@@ -5833,9 +5838,6 @@ pre {
     color: #633f1d; }
 
 h1, h2, h3 {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-weight: 800; }
 
 p {
