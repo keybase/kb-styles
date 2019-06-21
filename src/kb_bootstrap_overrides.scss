@@ -25,8 +25,12 @@ pre {
   }
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-weight: 800;
+}
+
+h3, h4, h5 {
+  font-weight: 600;
 }
 
 p {
@@ -41,7 +45,7 @@ b, strong {
 }
 
 code {
-  font-size: 100%;
+  font-size: 90%;
 }
 
 label {
