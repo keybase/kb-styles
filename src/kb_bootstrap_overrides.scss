@@ -4,11 +4,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-pre {
-  font-size:14px;
-  line-height:20px;
-}
-
 .alert {
   font-weight: 600;
   a {
@@ -44,8 +39,12 @@ b, strong {
   font-weight: 600;
 }
 
-code {
-  font-size: 90%;
+code, pre {
+  font-size: 85%;
+  line-height: 1.6em;
+  text-rendering: auto;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 label {
