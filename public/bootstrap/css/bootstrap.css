@@ -1459,8 +1459,8 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #2645a3;
-  background-color: #ebf2fc;
+  color: #3663ea;
+  background-color: #faf2ed;
   border-radius: 2px; }
 
 kbd {
@@ -5823,10 +5823,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-pre {
-  font-size: 14px;
-  line-height: 20px; }
-
 .alert {
   font-weight: 600; }
   .alert a {
@@ -5853,8 +5849,12 @@ b,
 strong {
   font-weight: 600; }
 
-code {
-  font-size: 90%; }
+code, pre {
+  font-size: 85%;
+  line-height: 1.6em;
+  text-rendering: auto;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto; }
 
 label {
   font-weight: 800;
