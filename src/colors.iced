@@ -7,33 +7,38 @@ sass    = require 'node-sass'
 
 c = colors =
   blue:                     new Color 0x4c8eff
-  blue2:                    new Color 0x73a6ff
-  blue3:                    new Color 0xa8ccff
-  blue4:                    new Color 0xebf2fc
-  blue5:                    new Color 0xf7f9fc
+  blueDark:                 new Color 0x3663ea   # previously dark_blue2 
+  blueDarker:               new Color 0x1036ac   # previously dark_blue4
+  blueDarker2:              new Color 0x182d6e   # previously dark_blue3
+  blueLight:                new Color 0x73a6ff   # previously blue2
+  blueLighter:              new Color 0xa8ccff   # previously blue3
+  blueLighter2:             new Color 0xebf2fc   # previously blue4
+  blueLighter3:             new Color 0xf7f9fc   # previously blue5
+# dark_blue:                new Color 0x2645a3   DITCHED (if used, replace with blueDark)
   orange:                   new Color 0xff6f21
   yellow:                   new Color 0xfff75a
-  yellow2:                  new Color 0xdbd22a
-  yellow3:                  new Color 0xfffdcc
-  dark_blue:                new Color 0x2645a3
-  dark_blue2:               new Color 0x3663ea
-  dark_blue3:               new Color 0x182d6e
-  dark_blue4:               new Color 0x1036ac
+  yellowDark:               new Color 0xffb800   # previously yellow2
+  yellowLight:              new Color 0xfffdcc   # previously yellow3
   green:                    new Color 0x37bd99
-  green2:                   new Color 0x289a72
-  green3:                   new Color 0xe8faf6
-  red:                      new Color 0xff4d61
-  yellow_green:             new Color 0xa8cf36
-  yellow_green2:            new Color 0x94b52f
-  yellow_green3:            new Color 0xd2e697
-  light_grey:               new Color 0xf6f6f6
-  light_grey2:              new Color 0xe6e6e6
-  grey:                     new Color 0xcccccc
-  beige:                    new Color 0xfaf2ed
-  purple:                   new Color 0x704eba
-  purple2:                  new Color 0x845cdb
-  purple3:                  new Color 0x9f7bec
-  background_light_grey2:   new Color 0xf6f6f6
+  greenDark:                new Color 0x189e7a   #previously green2
+  greenDarker:              new Color 0x12785d
+  greenLight:               new Color 0xb7eed9
+  greenLighter:             new Color 0xe8faf6   #previously green3
+  red:                      new Color 0xe7f9f6
+  redDark:                  new Color 0xeb253b
+  redDarker:                new Color 0xbd0b1f
+  redLight:                 new Color 0xffcac1
+  redLighter:               new Color 0xfaf2ed   #previously beige
+  yellow_green:             new Color 0xa8cf36   #ditch sometime!
+  yellow_green2:            new Color 0x94b52f   #ditch sometime!
+  yellow_green3:            new Color 0xd2e697   #ditch sometime!
+  greyLight:                new Color 0xf6f6f6   #previously light_grey
+  grey:                     new Color 0xe6e6e6   #previously light_grey2
+  greyDark:                 new Color 0xcccccc   #previously grey
+  purple:                   new Color 0x845cdb   #previously purple2
+  purpleDark:               new Color 0x704eba   #previously purple
+  purpleLight:              new Color 0x9f7bec   #previously purple3
+  background_greyLight:     new Color 0xf6f6f6   #previously light_grey2
   background_white:         new Color 0xffffff
   white:                    new Color 0xffffff
   black:                    new Color 0x000000
