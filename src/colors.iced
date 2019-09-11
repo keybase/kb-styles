@@ -37,9 +37,9 @@ c = colors =
   grey_dark:                new Color 0xcccccc   # previously grey
   blue_grey:                new Color 0xf2f4f7
   blue_grey_dark:           new Color 0xe0e8f6
-  purple:                   new Color 0x845cdb   # previously purple2
-  purple_dark:              new Color 0x704eba   # previously purple
-  purple_light:             new Color 0x9f7bec   # previously purple3
+  purple:                   new Color 0x8852ff   # previously purple2
+  purple_dark:              new Color 0x6d3fd1   # previously purple
+  purple_light:             new Color 0x9d70ff   # previously purple3
   background_grey_light:    new Color 0xf6f6f6   # previously light_grey2
   background_white:         new Color 0xffffff
   white:                    new Color 0xffffff
