@@ -27,7 +27,7 @@ $brand-danger:          $kb_red; //#d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $kb_light_grey !default;
+$body-bg:               $kb_grey_light !default;
 //** Global text color on `<body>`.
 $text-color:            $kb_black85_on_white; //gray-dark !default;
 
@@ -150,8 +150,8 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                600;//normal !default;
 
 $btn-default-color:              $kb_black85 !default;
-$btn-default-bg:                 $kb_light_grey2 !default;
-$btn-default-border:             $kb_light_grey2 !default;
+$btn-default-bg:                 $kb_grey !default;
+$btn-default-border:             $kb_grey !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
@@ -173,7 +173,7 @@ $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              $btn-danger-bg;//darken($btn-danger-bg, 5%) !default;
 
-$btn-link-disabled-color:        $gray-light !default;
+$btn-link-disabled-color:        $kb_grey_light !default;
 
 // Allows for customizing button radius independently from global border radius
 $btn-border-radius-base:         4px; //$border-radius-base !default;
@@ -396,12 +396,12 @@ $navbar-default-toggle-border-color:       #ddd !default;
 //=== Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
-$navbar-inverse-bg:                         $kb_dark_blue3 !default;
+$navbar-inverse-bg:                         $kb_blue_darker2 !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 0%) !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 $kb_blue;//lighten($gray-light, 15%) !default;
-$navbar-inverse-link-hover-color:           $kb_blue2; //!default;
+$navbar-inverse-link-hover-color:           $kb_blue_light; //!default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
 $navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
@@ -491,7 +491,7 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                $kb_white;//inherit !default;
-$jumbotron-bg:                   $kb_dark_blue;//$gray-lighter !default;
+$jumbotron-bg:                   $kb_blue_darker2;//$gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
@@ -765,8 +765,8 @@ $thumbnail-caption-padding:   9px !default;
 //
 //##
 
-$well-bg:                     $kb_dark_blue;//#f5f5f5 !default;
-$well-border:                 $kb_dark_blue;//darken($well-bg, 5%) !default;
+$well-bg:                     $kb_blue_dark;//#f5f5f5 !default;
+$well-border:                 $kb_blue_dark;//darken($well-bg, 5%) !default;
 
 
 //== Badges
@@ -834,15 +834,15 @@ $close-text-shadow:           none;//0 1px 0 #fff !default;
 //
 //##
 
-$code-color:                  $kb_dark_blue2;// !default;
-$code-bg:                     $kb_beige;// !default;
+$code-color:                  $kb_blue_dark;// !default;
+$code-bg:                     $kb_red_light;// !default;
 
 $kbd-color:                   #fff !default;
 $kbd-bg:                      #333 !default;
 
-$pre-bg:                      $kb_dark_blue;//#f5f5f5 !default;
-$pre-color:                   $kb_blue4;//$gray-dark !default;
-$pre-border-color:            $kb_dark_blue;//#ccc !default;
+$pre-bg:                      $kb_blue_darker2;//#f5f5f5 !default;
+$pre-color:                   $kb_blue_lighter2;//$gray-dark !default;
+$pre-border-color:            $kb_blue_darker2;//#ccc !default;
 $pre-scrollable-max-height:   340px !default;
 
 

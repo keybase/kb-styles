@@ -10,30 +10,47 @@ module.exports = {
       "g": 142,
       "b": 255
     },
-    "blue2": {
+    "blue_dark": {
+      "css": "rgb(54,99,234)",
+      "r": 54,
+      "g": 99,
+      "b": 234
+    },
+    "blue_darker": {
+      "css": "rgb(16,54,172)",
+      "r": 16,
+      "g": 54,
+      "b": 172
+    },
+    "blue_darker2": {
+      "css": "rgb(24,45,110)",
+      "r": 24,
+      "g": 45,
+      "b": 110
+    },
+    "blue_light": {
       "css": "rgb(115,166,255)",
       "r": 115,
       "g": 166,
       "b": 255
     },
-    "blue3": {
+    "blue_lighter": {
       "css": "rgb(168,204,255)",
       "r": 168,
       "g": 204,
       "b": 255
     },
-    "blue4": {
+    "blue_lighter2": {
       "css": "rgb(235,242,252)",
       "r": 235,
       "g": 242,
       "b": 252
     },
-    "blue5": {
-      "css": "rgba(76,142,255,0.050)",
-      "r": 76,
-      "g": 142,
-      "b": 255,
-      "a": 0.05
+    "blue_lighter3": {
+      "css": "rgb(247,249,252)",
+      "r": 247,
+      "g": 249,
+      "b": 252
     },
     "orange": {
       "css": "rgb(255,111,33)",
@@ -47,41 +64,17 @@ module.exports = {
       "g": 247,
       "b": 90
     },
-    "yellow2": {
-      "css": "rgb(219,210,42)",
-      "r": 219,
-      "g": 210,
-      "b": 42
+    "yellow_dark": {
+      "css": "rgb(255,184,0)",
+      "r": 255,
+      "g": 184,
+      "b": 0
     },
-    "yellow3": {
+    "yellow_light": {
       "css": "rgb(255,253,204)",
       "r": 255,
       "g": 253,
       "b": 204
-    },
-    "dark_blue": {
-      "css": "rgb(38,69,163)",
-      "r": 38,
-      "g": 69,
-      "b": 163
-    },
-    "dark_blue2": {
-      "css": "rgb(54,99,234)",
-      "r": 54,
-      "g": 99,
-      "b": 234
-    },
-    "dark_blue3": {
-      "css": "rgb(24,45,110)",
-      "r": 24,
-      "g": 45,
-      "b": 110
-    },
-    "dark_blue4": {
-      "css": "rgb(16,54,172)",
-      "r": 16,
-      "g": 54,
-      "b": 172
     },
     "green": {
       "css": "rgb(55,189,153)",
@@ -89,23 +82,59 @@ module.exports = {
       "g": 189,
       "b": 153
     },
-    "green2": {
-      "css": "rgb(40,154,114)",
-      "r": 40,
-      "g": 154,
-      "b": 114
+    "green_dark": {
+      "css": "rgb(24,158,122)",
+      "r": 24,
+      "g": 158,
+      "b": 122
     },
-    "green3": {
+    "green_darker": {
+      "css": "rgb(18,120,93)",
+      "r": 18,
+      "g": 120,
+      "b": 93
+    },
+    "green_light": {
+      "css": "rgb(183,238,217)",
+      "r": 183,
+      "g": 238,
+      "b": 217
+    },
+    "green_lighter": {
       "css": "rgb(232,250,246)",
       "r": 232,
       "g": 250,
       "b": 246
     },
     "red": {
-      "css": "rgb(255,77,97)",
+      "css": "rgb(231,249,246)",
+      "r": 231,
+      "g": 249,
+      "b": 246
+    },
+    "red_dark": {
+      "css": "rgb(235,37,59)",
+      "r": 235,
+      "g": 37,
+      "b": 59
+    },
+    "red_darker": {
+      "css": "rgb(189,11,31)",
+      "r": 189,
+      "g": 11,
+      "b": 31
+    },
+    "red_light": {
+      "css": "rgb(255,202,193)",
       "r": 255,
-      "g": 77,
-      "b": 97
+      "g": 202,
+      "b": 193
+    },
+    "red_lighter": {
+      "css": "rgb(250,242,237)",
+      "r": 250,
+      "g": 242,
+      "b": 237
     },
     "yellow_green": {
       "css": "rgb(168,207,54)",
@@ -125,49 +154,43 @@ module.exports = {
       "g": 230,
       "b": 151
     },
-    "light_grey": {
+    "grey_light": {
       "css": "rgb(246,246,246)",
       "r": 246,
       "g": 246,
       "b": 246
     },
-    "light_grey2": {
+    "grey": {
       "css": "rgb(230,230,230)",
       "r": 230,
       "g": 230,
       "b": 230
     },
-    "grey": {
+    "grey_dark": {
       "css": "rgb(204,204,204)",
       "r": 204,
       "g": 204,
       "b": 204
     },
-    "beige": {
-      "css": "rgb(250,242,237)",
-      "r": 250,
-      "g": 242,
-      "b": 237
-    },
     "purple": {
-      "css": "rgb(112,78,186)",
-      "r": 112,
-      "g": 78,
-      "b": 186
-    },
-    "purple2": {
       "css": "rgb(132,92,219)",
       "r": 132,
       "g": 92,
       "b": 219
     },
-    "purple3": {
+    "purple_dark": {
+      "css": "rgb(112,78,186)",
+      "r": 112,
+      "g": 78,
+      "b": 186
+    },
+    "purple_light": {
       "css": "rgb(159,123,236)",
       "r": 159,
       "g": 123,
       "b": 236
     },
-    "background_light_grey2": {
+    "background_grey_light": {
       "css": "rgb(246,246,246)",
       "r": 246,
       "g": 246,
@@ -222,11 +245,11 @@ module.exports = {
       "g": 247,
       "b": 98
     },
-    "white5_on_dark_blue": {
-      "css": "rgb(48,78,167)",
-      "r": 48,
-      "g": 78,
-      "b": 167
+    "white5_on_blue_darker2": {
+      "css": "rgb(35,55,117)",
+      "r": 35,
+      "g": 55,
+      "b": 117
     },
     "white10": {
       "css": "rgba(255,255,255,0.100)",
@@ -253,11 +276,11 @@ module.exports = {
       "g": 247,
       "b": 106
     },
-    "white10_on_dark_blue": {
-      "css": "rgb(59,87,172)",
-      "r": 59,
-      "g": 87,
-      "b": 172
+    "white10_on_blue_darker2": {
+      "css": "rgb(47,66,124)",
+      "r": 47,
+      "g": 66,
+      "b": 124
     },
     "white20": {
       "css": "rgba(255,255,255,0.200)",
@@ -284,11 +307,11 @@ module.exports = {
       "g": 248,
       "b": 123
     },
-    "white20_on_dark_blue": {
-      "css": "rgb(81,106,181)",
-      "r": 81,
-      "g": 106,
-      "b": 181
+    "white20_on_blue_darker2": {
+      "css": "rgb(70,87,139)",
+      "r": 70,
+      "g": 87,
+      "b": 139
     },
     "white50": {
       "css": "rgba(255,255,255,0.500)",
@@ -315,11 +338,11 @@ module.exports = {
       "g": 251,
       "b": 172
     },
-    "white50_on_dark_blue": {
-      "css": "rgb(146,162,209)",
-      "r": 146,
-      "g": 162,
-      "b": 209
+    "white50_on_blue_darker2": {
+      "css": "rgb(139,150,182)",
+      "r": 139,
+      "g": 150,
+      "b": 182
     },
     "white63": {
       "css": "rgba(255,255,255,0.630)",
@@ -346,11 +369,11 @@ module.exports = {
       "g": 252,
       "b": 193
     },
-    "white63_on_dark_blue": {
-      "css": "rgb(174,186,220)",
-      "r": 174,
-      "g": 186,
-      "b": 220
+    "white63_on_blue_darker2": {
+      "css": "rgb(169,177,201)",
+      "r": 169,
+      "g": 177,
+      "b": 201
     },
     "white85": {
       "css": "rgba(255,255,255,0.850)",
@@ -377,11 +400,11 @@ module.exports = {
       "g": 253,
       "b": 230
     },
-    "white85_on_dark_blue": {
-      "css": "rgb(222,227,241)",
-      "r": 222,
-      "g": 227,
-      "b": 241
+    "white85_on_blue_darker2": {
+      "css": "rgb(220,223,233)",
+      "r": 220,
+      "g": 223,
+      "b": 233
     },
     "black5": {
       "css": "rgba(0,0,0,0.050)",
@@ -408,11 +431,11 @@ module.exports = {
       "g": 234,
       "b": 85
     },
-    "black5_on_dark_blue": {
-      "css": "rgb(36,65,154)",
-      "r": 36,
-      "g": 65,
-      "b": 154
+    "black5_on_blue_darker2": {
+      "css": "rgb(22,42,104)",
+      "r": 22,
+      "g": 42,
+      "b": 104
     },
     "black10": {
       "css": "rgba(0,0,0,0.100)",
@@ -439,11 +462,11 @@ module.exports = {
       "g": 222,
       "b": 81
     },
-    "black10_on_dark_blue": {
-      "css": "rgb(34,62,146)",
-      "r": 34,
-      "g": 62,
-      "b": 146
+    "black10_on_blue_darker2": {
+      "css": "rgb(21,40,99)",
+      "r": 21,
+      "g": 40,
+      "b": 99
     },
     "black20": {
       "css": "rgba(0,0,0,0.200)",
@@ -470,11 +493,11 @@ module.exports = {
       "g": 197,
       "b": 72
     },
-    "black20_on_dark_blue": {
-      "css": "rgb(30,55,130)",
-      "r": 30,
-      "g": 55,
-      "b": 130
+    "black20_on_blue_darker2": {
+      "css": "rgb(19,36,88)",
+      "r": 19,
+      "g": 36,
+      "b": 88
     },
     "black50": {
       "css": "rgba(0,0,0,0.500)",
@@ -501,11 +524,11 @@ module.exports = {
       "g": 123,
       "b": 45
     },
-    "black50_on_dark_blue": {
-      "css": "rgb(19,34,81)",
-      "r": 19,
-      "g": 34,
-      "b": 81
+    "black50_on_blue_darker2": {
+      "css": "rgb(12,22,55)",
+      "r": 12,
+      "g": 22,
+      "b": 55
     },
     "black63": {
       "css": "rgba(0,0,0,0.630)",
@@ -532,11 +555,11 @@ module.exports = {
       "g": 91,
       "b": 33
     },
-    "black63_on_dark_blue": {
-      "css": "rgb(14,25,60)",
-      "r": 14,
-      "g": 25,
-      "b": 60
+    "black63_on_blue_darker2": {
+      "css": "rgb(8,16,40)",
+      "r": 8,
+      "g": 16,
+      "b": 40
     },
     "black85": {
       "css": "rgba(0,0,0,0.850)",
@@ -563,11 +586,11 @@ module.exports = {
       "g": 37,
       "b": 13
     },
-    "black85_on_dark_blue": {
-      "css": "rgb(5,10,24)",
-      "r": 5,
-      "g": 10,
-      "b": 24
+    "black85_on_blue_darker2": {
+      "css": "rgb(3,6,16)",
+      "r": 3,
+      "g": 6,
+      "b": 16
     },
     "brown5": {
       "css": "rgba(71,31,18,0.050)",
@@ -594,11 +617,11 @@ module.exports = {
       "g": 236,
       "b": 86
     },
-    "brown5_on_dark_blue": {
-      "css": "rgb(39,67,155)",
-      "r": 39,
-      "g": 67,
-      "b": 155
+    "brown5_on_blue_darker2": {
+      "css": "rgb(26,44,105)",
+      "r": 26,
+      "g": 44,
+      "b": 105
     },
     "brown10": {
       "css": "rgba(71,31,18,0.100)",
@@ -625,11 +648,11 @@ module.exports = {
       "g": 225,
       "b": 82
     },
-    "brown10_on_dark_blue": {
-      "css": "rgb(41,65,148)",
-      "r": 41,
-      "g": 65,
-      "b": 148
+    "brown10_on_blue_darker2": {
+      "css": "rgb(28,43,100)",
+      "r": 28,
+      "g": 43,
+      "b": 100
     },
     "brown20": {
       "css": "rgba(71,31,18,0.200)",
@@ -656,11 +679,11 @@ module.exports = {
       "g": 203,
       "b": 75
     },
-    "brown20_on_dark_blue": {
-      "css": "rgb(44,61,134)",
-      "r": 44,
-      "g": 61,
-      "b": 134
+    "brown20_on_blue_darker2": {
+      "css": "rgb(33,42,91)",
+      "r": 33,
+      "g": 42,
+      "b": 91
     },
     "brown50": {
       "css": "rgba(71,31,18,0.500)",
@@ -687,11 +710,11 @@ module.exports = {
       "g": 139,
       "b": 54
     },
-    "brown50_on_dark_blue": {
-      "css": "rgb(54,50,90)",
-      "r": 54,
-      "g": 50,
-      "b": 90
+    "brown50_on_blue_darker2": {
+      "css": "rgb(47,38,64)",
+      "r": 47,
+      "g": 38,
+      "b": 64
     },
     "brown63": {
       "css": "rgba(71,31,18,0.630)",
@@ -718,11 +741,11 @@ module.exports = {
       "g": 110,
       "b": 44
     },
-    "brown63_on_dark_blue": {
-      "css": "rgb(58,45,71)",
-      "r": 58,
-      "g": 45,
-      "b": 71
+    "brown63_on_blue_darker2": {
+      "css": "rgb(53,36,52)",
+      "r": 53,
+      "g": 36,
+      "b": 52
     },
     "brown85": {
       "css": "rgba(71,31,18,0.850)",
@@ -749,11 +772,18 @@ module.exports = {
       "g": 63,
       "b": 28
     },
-    "brown85_on_dark_blue": {
-      "css": "rgb(66,36,39)",
-      "r": 66,
-      "g": 36,
-      "b": 39
+    "brown85_on_blue_darker2": {
+      "css": "rgb(63,33,31)",
+      "r": 63,
+      "g": 33,
+      "b": 31
+    },
+    "blue5": {
+      "css": "rgba(76,142,255,0.050)",
+      "r": 76,
+      "g": 142,
+      "b": 255,
+      "a": 0.05
     },
     "blue5_on_white": {
       "css": "rgb(246,249,255)",
@@ -773,11 +803,11 @@ module.exports = {
       "g": 241,
       "b": 98
     },
-    "blue5_on_dark_blue": {
-      "css": "rgb(39,72,167)",
-      "r": 39,
-      "g": 72,
-      "b": 167
+    "blue5_on_blue_darker2": {
+      "css": "rgb(26,49,117)",
+      "r": 26,
+      "g": 49,
+      "b": 117
     },
     "blue10": {
       "css": "rgba(76,142,255,0.100)",
@@ -804,11 +834,11 @@ module.exports = {
       "g": 236,
       "b": 106
     },
-    "blue10_on_dark_blue": {
-      "css": "rgb(41,76,172)",
-      "r": 41,
-      "g": 76,
-      "b": 172
+    "blue10_on_blue_darker2": {
+      "css": "rgb(29,54,124)",
+      "r": 29,
+      "g": 54,
+      "b": 124
     },
     "blue20": {
       "css": "rgba(76,142,255,0.200)",
@@ -835,11 +865,11 @@ module.exports = {
       "g": 226,
       "b": 123
     },
-    "blue20_on_dark_blue": {
-      "css": "rgb(45,83,181)",
-      "r": 45,
-      "g": 83,
-      "b": 181
+    "blue20_on_blue_darker2": {
+      "css": "rgb(34,64,139)",
+      "r": 34,
+      "g": 64,
+      "b": 139
     },
     "blue50": {
       "css": "rgba(76,142,255,0.500)",
@@ -866,11 +896,11 @@ module.exports = {
       "g": 194,
       "b": 172
     },
-    "blue50_on_dark_blue": {
-      "css": "rgb(57,105,209)",
-      "r": 57,
-      "g": 105,
-      "b": 209
+    "blue50_on_blue_darker2": {
+      "css": "rgb(50,93,182)",
+      "r": 50,
+      "g": 93,
+      "b": 182
     },
     "blue63": {
       "css": "rgba(76,142,255,0.630)",
@@ -897,11 +927,11 @@ module.exports = {
       "g": 180,
       "b": 193
     },
-    "blue63_on_dark_blue": {
-      "css": "rgb(61,114,220)",
-      "r": 61,
-      "g": 114,
-      "b": 220
+    "blue63_on_blue_darker2": {
+      "css": "rgb(56,106,201)",
+      "r": 56,
+      "g": 106,
+      "b": 201
     },
     "blue85": {
       "css": "rgba(76,142,255,0.850)",
@@ -928,11 +958,11 @@ module.exports = {
       "g": 157,
       "b": 230
     },
-    "blue85_on_dark_blue": {
-      "css": "rgb(70,131,241)",
-      "r": 70,
-      "g": 131,
-      "b": 241
+    "blue85_on_blue_darker2": {
+      "css": "rgb(68,127,233)",
+      "r": 68,
+      "g": 127,
+      "b": 233
     }
   }
 }
