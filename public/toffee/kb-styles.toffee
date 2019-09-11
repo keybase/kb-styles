@@ -28,6 +28,8 @@
       "grey_light": "rgb(246,246,246)"
       "grey": "rgb(230,230,230)"
       "grey_dark": "rgb(204,204,204)"
+      "blue_grey": "rgb(242,244,247)"
+      "blue_grey_dark": "rgb(224,232,246)"
       "purple": "rgb(132,92,219)"
       "purple_dark": "rgb(112,78,186)"
       "purple_light": "rgb(159,123,236)"
