@@ -29,9 +29,9 @@ c = colors =
   red_darker:               new Color 0xbd0b1f
   red_light:                new Color 0xffcac1
   red_lighter:              new Color 0xfaf2ed   # previously beige
-  yellow_green:             new Color 0xa8cf36   # ditch sometime!
-  yellow_green2:            new Color 0x94b52f   # ditch sometime!
-  yellow_green3:            new Color 0xd2e697   # ditch sometime!
+#  yellow_green:             new Color 0xa8cf36  # DITCHED
+#  yellow_green2:            new Color 0x94b52f  # DITCHED
+#  yellow_green3:            new Color 0xd2e697  # DITCHED
   grey_light:               new Color 0xf6f6f6   # previously light_grey
   grey:                     new Color 0xe6e6e6   # previously light_grey2
   grey_dark:                new Color 0xcccccc   # previously grey
