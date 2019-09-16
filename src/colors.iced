@@ -24,7 +24,7 @@ c = colors =
   green_darker:             new Color 0x12785d
   green_light:              new Color 0xb7eed9
   green_lighter:            new Color 0xe8faf6   # previously green3
-  red:                      new Color 0xe7f9f6
+  red:                      new Color 0xff4d61
   red_dark:                 new Color 0xeb253b
   red_darker:               new Color 0xbd0b1f
   red_light:                new Color 0xffcac1
