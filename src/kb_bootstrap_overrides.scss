@@ -87,7 +87,7 @@ label {
 
 /* and our green outline button */
 .btn-success-outline {
-  color: $kb_green2;
+  color: $kb_green_dark;
   background-color: #fff;
   border: 2px solid $kb_green;
   padding: 6px 23px 5px;
@@ -116,10 +116,10 @@ small, .small {
 .well {
   color:$kb_white;
   small {
-    color:$kb_white50_on_dark_blue;
+    color:$kb_white50_on_blue_darker2;
   }
 }
-.jumbotron small { color: $kb_white50_on_dark_blue; }
+.jumbotron small { color: $kb_white50_on_blue_darker2; }
 
 .modal {
   .modal-header {

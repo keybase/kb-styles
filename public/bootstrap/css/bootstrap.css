@@ -1485,8 +1485,8 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   color: #ebf2fc;
-  background-color: #2645a3;
-  border: 1px solid #2645a3;
+  background-color: #182d6e;
+  border: 1px solid #182d6e;
   border-radius: 2px; }
   pre code {
     padding: 0;
@@ -3066,7 +3066,7 @@ fieldset[disabled] a.btn {
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
   fieldset[disabled] .btn-link:hover,
   fieldset[disabled] .btn-link:focus {
-    color: #777777;
+    color: #f6f6f6;
     text-decoration: none; }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -4289,7 +4289,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: white;
-  background-color: #2645a3; }
+  background-color: #182d6e; }
   .jumbotron h1,
   .jumbotron .h1 {
     color: inherit; }
@@ -4298,7 +4298,7 @@ a.badge:hover, a.badge:focus {
     font-size: 23px;
     font-weight: 200; }
   .jumbotron > hr {
-    border-top-color: #1c337a; }
+    border-top-color: #0f1c44; }
   .container .jumbotron,
   .container-fluid .jumbotron {
     border-radius: 8px;
@@ -5022,8 +5022,8 @@ button.list-group-item-danger {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #2645a3;
-  border: 1px solid #2645a3;
+  background-color: #3663ea;
+  border: 1px solid #3663ea;
   border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
@@ -5889,7 +5889,7 @@ label {
 
 /* and our green outline button */
 .btn-success-outline {
-  color: #289a72;
+  color: #189e7a;
   background-color: #fff;
   border: 2px solid #37bd99;
   padding: 6px 23px 5px; }
@@ -5919,10 +5919,10 @@ small, .small {
 .well {
   color: white; }
   .well small {
-    color: #93a2d1; }
+    color: #8c96b7; }
 
 .jumbotron small {
-  color: #93a2d1; }
+  color: #8c96b7; }
 
 .modal .modal-header {
   text-align: center;

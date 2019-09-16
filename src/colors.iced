@@ -7,33 +7,40 @@ sass    = require 'node-sass'
 
 c = colors =
   blue:                     new Color 0x4c8eff
-  blue2:                    new Color 0x73a6ff
-  blue3:                    new Color 0xa8ccff
-  blue4:                    new Color 0xebf2fc
-  blue5:                    new Color 0xf7f9fc
+  blue_dark:                new Color 0x3663ea   # previously dark_blue2 
+  blue_darker:              new Color 0x1036ac   # previously dark_blue4
+  blue_darker2:             new Color 0x182d6e   # previously dark_blue3
+  blue_light:               new Color 0x73a6ff   # previously blue2
+  blue_lighter:             new Color 0xa8ccff   # previously blue3
+  blue_lighter2:            new Color 0xebf2fc   # previously blue4
+  blue_lighter3:            new Color 0xf7f9fc   # previously blue5
+# dark_blue:                new Color 0x2645a3   DITCHED (if used, replace with blueDark)
   orange:                   new Color 0xff6f21
   yellow:                   new Color 0xfff75a
-  yellow2:                  new Color 0xdbd22a
-  yellow3:                  new Color 0xfffdcc
-  dark_blue:                new Color 0x2645a3
-  dark_blue2:               new Color 0x3663ea
-  dark_blue3:               new Color 0x182d6e
-  dark_blue4:               new Color 0x1036ac
+  yellow_dark:              new Color 0xffb800   # previously yellow2
+  yellow_light:             new Color 0xfffdcc   # previously yellow3
   green:                    new Color 0x37bd99
-  green2:                   new Color 0x289a72
-  green3:                   new Color 0xe8faf6
+  green_dark:               new Color 0x189e7a   # previously green2
+  green_darker:             new Color 0x12785d
+  green_light:              new Color 0xb7eed9
+  green_lighter:            new Color 0xe8faf6   # previously green3
   red:                      new Color 0xff4d61
-  yellow_green:             new Color 0xa8cf36
-  yellow_green2:            new Color 0x94b52f
-  yellow_green3:            new Color 0xd2e697
-  light_grey:               new Color 0xf6f6f6
-  light_grey2:              new Color 0xe6e6e6
-  grey:                     new Color 0xcccccc
-  beige:                    new Color 0xfaf2ed
-  purple:                   new Color 0x704eba
-  purple2:                  new Color 0x845cdb
-  purple3:                  new Color 0x9f7bec
-  background_light_grey2:   new Color 0xf6f6f6
+  red_dark:                 new Color 0xeb253b
+  red_darker:               new Color 0xbd0b1f
+  red_light:                new Color 0xffcac1
+  red_lighter:              new Color 0xfaf2ed   # previously beige
+#  yellow_green:            new Color 0xa8cf36  # DITCHED
+#  yellow_green2:           new Color 0x94b52f  # DITCHED
+#  yellow_green3:           new Color 0xd2e697  # DITCHED
+  grey_light:               new Color 0xf6f6f6   # previously light_grey
+  grey:                     new Color 0xe6e6e6   # previously light_grey2
+  grey_dark:                new Color 0xcccccc   # previously grey
+  blue_grey:                new Color 0xf2f4f7
+  blue_grey_dark:           new Color 0xe0e8f6
+  purple:                   new Color 0x8852ff   # previously purple2
+  purple_dark:              new Color 0x6d3fd1   # previously purple
+  purple_light:             new Color 0x9d70ff   # previously purple3
+  background_grey_light:    new Color 0xf6f6f6   # previously light_grey2
   background_white:         new Color 0xffffff
   white:                    new Color 0xffffff
   black:                    new Color 0x000000
@@ -44,7 +51,7 @@ for fg in ['white','black','brown','blue']
   for alpha in [5,10,20,50,63,85]
     a = alpha / 100
     c["#{fg}#{alpha}"] = new Color r, g, b, a             # this generates black70, etc.
-    for bg in ['white','black','yellow','dark_blue']
+    for bg in ['white','black','yellow','blue_darker2']
       r2 = c[bg].getR() * (1 - a) + r * a
       g2 = c[bg].getG() * (1 - a) + g * a
       b2 = c[bg].getB() * (1 - a) + b * a
@@ -65,15 +72,18 @@ pairs =
     bg: c.red
   documentation:
     fg: c.white
-    bg: c.dark_blue
+    bg: c.blue_darker2
   terminal:
-    bg: c.dark_blue3
+    bg: c.blue_darker2
     fg: c.blue3
   encrypted:
-    bg: c.dark_blue
+    bg: c.blue_darker2
     fg: c.white
   public:
-    bg: c.yellow_green
+    bg: c.green
+    fg: c.white
+  stellar:
+    bg: c.purple
     fg: c.white
 
 module.exports = {colors, pairs}
