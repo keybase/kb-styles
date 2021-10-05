@@ -1,6 +1,6 @@
 {
   "name": "kb-styles",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "colors and styles of keybase",
   "main": "lib/index.js",
   "scripts": {
